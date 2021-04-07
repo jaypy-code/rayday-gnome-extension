@@ -1,0 +1,10 @@
+{
+    "name": "Rayday",
+    "description": "Rayday is a small CRM to manage your todos , deadlines and etc...",
+    "shell-version": [
+        "3.36"
+    ],
+    "url": "https://github.com/jaypy-code/rayday-gnome-extension",
+    "uuid": "rayday@jaypy.ir",
+    "version": 0.1
+}
