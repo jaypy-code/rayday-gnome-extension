@@ -152,7 +152,7 @@ const Rayday = new Lang.Class({
                 reactive: true,
                 can_focus: true,
                 track_hover: true,
-                x_fill: true,
+                x_expand: true,
                 can_focus: true,
                 child: icon
             });
@@ -270,7 +270,7 @@ const Rayday = new Lang.Class({
                 reactive: true,
                 can_focus: true,
                 track_hover: true,
-                x_fill: true,
+                x_expand: true,
                 can_focus: true,
                 child: label
             });
@@ -294,7 +294,7 @@ const Rayday = new Lang.Class({
                 reactive: true,
                 can_focus: true,
                 track_hover: true,
-                x_fill: true,
+                x_expand: true,
                 can_focus: true,
                 child: icon
             });
