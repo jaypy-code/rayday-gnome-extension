@@ -89,7 +89,7 @@ const Rayday = new Lang.Class({
         this.PanelButton = new St.Bin();
 
         let icon = new St.Icon({
-            icon_name: 'x-office-calendar',
+            icon_name: 'x-office-calendar-symbolic',
             style_class: 'system-status-icon'
         });
 
@@ -144,7 +144,7 @@ const Rayday = new Lang.Class({
         function Button(icon_name = '', callback = function () { }) {
             let icon = new St.Icon({
                 icon_name: icon_name,
-                style_class: 'system-status-icon black-icon'
+                style_class: 'system-status-icon'
             });
 
             let button = new St.Bin({
@@ -152,7 +152,6 @@ const Rayday = new Lang.Class({
                 reactive: true,
                 can_focus: true,
                 track_hover: true,
-                x_expand: true,
                 can_focus: true,
                 child: icon
             });
@@ -262,11 +261,11 @@ const Rayday = new Lang.Class({
         function Content() {
             let label = new St.Label({
                 text: item.text,
-                style_class: `black-text ${item.done ? 'line-on-text' : ''}` // if action is done , make a line on text
+                style_class: ` system-status-label ${item.done ? 'line-on-text' : ''}` // if action is done , make a line on text
             });
 
             let button = new St.Bin({
-                style_class: 'ci-action-btn',
+                style_class: 'system-status-icon ci-action-btn',
                 reactive: true,
                 can_focus: true,
                 track_hover: true,
@@ -286,7 +285,7 @@ const Rayday = new Lang.Class({
         function DeleteButton() {
             let icon = new St.Icon({
                 icon_name: 'edit-delete-symbolic',
-                style_class: 'system-status-icon black-icon'
+                style_class: 'system-status-icon'
             });
 
             let button = new St.Bin({

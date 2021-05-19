@@ -1,26 +1,18 @@
 .line-on-text {
-    text-decoration: line-through;
-}
-
-.black-text {
-    color: black;
-}
-
-.black-icon {
-    color: black;
+  text-decoration: line-through;
 }
 
 .footer-button {
-    width: 26px;
-    height: 26px;
+  width: 26px;
+  height: 26px;
 
-    border-radius: 4px;
+  border-radius: 4px;
 }
 
 .footer-button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .footer-text {
-    margin-top: 4px;
+  margin-top: 4px;
 }
